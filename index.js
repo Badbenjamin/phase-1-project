@@ -1,4 +1,5 @@
-const name = prompt("whats your name")
-alert("this is an alert")
-console.log('goodbye');
-console.log('name')
+fetch("http://localhost:3000/burgers")
+.then(response => response.json())
+.then(data => console.log(data))
+
+// adfjlajdlkfjadf
